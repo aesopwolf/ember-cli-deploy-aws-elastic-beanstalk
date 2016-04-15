@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-deploy-elastic-beanstalk",
+  "name": "ember-cli-deploy-aws-elastic-beanstalk",
   "version": "1.0.0",
   "description": "This ember addon uploads a zipped file of your project to AWS Elastic Beanstalk",
   "keywords": [
@@ -11,8 +11,8 @@
     "eb",
     "deploy"
   ],
-  "homepage": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk",
-  "bugs": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk/issues",
+  "homepage": "https://github.com/aesopwolf/ember-cli-deploy-aws-elastic-beanstalk",
+  "bugs": "https://github.com/aesopwolf/ember-cli-deploy-aws-elastic-beanstalk/issues",
   "license": "ISC",
   "author": "Aesop Wolf <aesopwolf@gmail.com>",
   "main": "index.js",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk.git"
+    "url": "https://github.com/aesopwolf/ember-cli-deploy-aws-elastic-beanstalk.git"
   },
   "scripts": {
     "build": "ember build",

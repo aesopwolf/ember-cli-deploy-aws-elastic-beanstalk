@@ -1,10 +1,10 @@
-# ember-cli-deploy-elastic-beanstalk
+# ember-cli-deploy-aws-elastic-beanstalk
 
 > This addon uploads a zipped file of your project to AWS Elastic Beanstalk
 
 ## Installation
 ```
-$ ember install ember-cli-deploy-elastic-beanstalk
+$ ember install ember-cli-deploy-aws-elastic-beanstalk
 ```
 
 ## Quick Start
