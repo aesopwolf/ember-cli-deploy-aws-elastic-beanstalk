@@ -1,28 +1,42 @@
 {
   "name": "ember-cli-deploy-elastic-beanstalk",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "This ember addon uploads a zipped file of your project to AWS Elastic Beanstalk",
+  "keywords": [
+    "ember-addon",
+    "ember-cli-deploy-plugin",
+    "aws",
+    "elastic",
+    "beanstalk",
+    "eb",
+    "deploy"
+  ],
+  "homepage": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk",
+  "bugs": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk/issues",
+  "license": "ISC",
+  "author": "Aesop Wolf <aesopwolf@gmail.com>",
+  "main": "index.js",
   "directories": {
-    "doc": "doc",
     "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aesopwolf/ember-cli-deploy-elastic-beanstalk.git"
   },
   "scripts": {
     "build": "ember build",
-    "start": "ember server",
-    "test": "ember try:testall"
+    "start": "ember server"
   },
-  "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.4.3",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-dependency-checker": "^1.2.0",
+    "ember-cli-deploy-plugin": "0.2.5",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-htmlbars-inline-precompile": "^0.3.1",
     "ember-cli-inject-live-reload": "^1.4.0",
@@ -38,11 +52,11 @@
     "ember-try": "^0.2.2",
     "loader.js": "^4.0.1"
   },
-  "keywords": [
-    "ember-addon"
-  ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "aws-sdk": "^2.3.3",
+    "ember-cli-babel": "^5.1.6",
+    "ember-cli-deploy-plugin": "^0.2.5",
+    "progress": "^1.1.8"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
